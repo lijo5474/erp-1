@@ -1,0 +1,1531 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard</title>
+<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+<!--===== Common styles =====-->
+<link href="css/main-style.css" type="text/css" rel="stylesheet"/>
+<link href="css/main-responsive.css" type="text/css" rel="stylesheet"/>
+<!--===== Common styles =====-->
+<!--main menu-->
+<link rel="stylesheet" href="css/menu-style.css" type="text/css" />
+<!--main menu-->
+<!--bootstrap icons-->
+<link href="css/bootstrap-icons.css" type="text/css" rel="stylesheet"/>
+<!--bootstrap icons-->
+<!--div slider-->
+<link rel="stylesheet" href="css/owl.carousel.min.css"/>
+<link rel="stylesheet" href="css/owl.theme.default.min.css"/>
+<!--div slider-->
+<!--toggle menu-->
+<link rel="stylesheet" href="css/pushy.css">
+<!--toggle menu-->
+
+<!-- === SORT TABLE STYLE === -->
+<link rel="stylesheet" href="css/bs-datatable.css" type="text/css" />
+<!-- === SORT TABLE STYLE === -->
+
+<link rel="stylesheet" href="css/datepicker.css" type="text/css" />
+<link rel="stylesheet" href="css/select-boxes.css" type="text/css" />
+
+
+</head>
+
+<body>
+
+
+<!-- ===== FOR MOBILE SCREEN ===== -->
+<div class="main-wrapper-for-mobile inner-for-mobile">
+  <div id="for-mobile-and-tab">
+    <div class="mobile-header_1">
+      <div class="row">
+        <div class="col-4"> <img src="images/mob-logo.jpg" class="img-fluid logo-ll" alt="Logo_company"/> </div>
+        <div class="col-4">  
+          <div class="logn-txt-cntrr">
+            <img src="images/icon-mob-suer.png" class="img-fluid" alt="Profile Photo"/>
+            <h5> Name </h5>
+          </div>
+        </div>
+        <div class="col-4">  
+          <div class="log-ott">
+            <svg width="26" height="26" fill="currentColor" class="bi bi-power" viewBox="0 0 16 16"><path d="M7.5 1v7h1V1z"/><path d="M3 8.812a5 5 0 0 1 2.578-4.375l-.485-.874A6 6 0 1 0 11 3.616l-.501.865A5 5 0 1 1 3 8.812"/></svg>
+            <h5> Logout </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- ===== FOR MOBILE SCREEN ===== -->
+
+  <div class="for-desktop for-desktop_inner">
+    <div class="top-hdd-bg"></div>
+<div class="wrapper">
+	<nav id="sidebar">
+    <div class="sidebar-header">
+      <div class="ib-llogo"> <a href="dashboard.html"><img src="images/ibusinesssuite-logo-2.png" class="img-fluid ib-logoo" alt="ibusinesssuite"/></a> </div>
+      <div class="logn-profile-2">
+        <div class="row">
+            <div class="col-sm-12"> 
+                <div class="prof-hfdr"> <img src="images/proff.png" class="img-fluid" alt="profile"/> </div>
+              </div>
+              <div class="col-sm-12"> 
+                <div class="prof-hfdr_prof-txt"> 
+                    <h4> Admin User ( Ad1 ) </h4>
+                  </div>
+              </div>
+          </div>
+      </div> 
+      <div class="finyear"> <h4> Financial Year : <br/>01 Apr 2023 - 31 Mar 2024 </h4> </div>
+       
+</div>
+
+        <div class="sid-menu-lefft">
+        	<nav class="pushy pushy-left" data-focus="#first-link">
+            <div class="pushy-content">
+                <ul>
+              
+                    <li class="pushy-link">
+                      <a href="#"> 
+                        <div class="icon-menu_1"> <svg fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                          <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+                        </svg> </div>
+                      <div class="icon-menu_2"> Admin </div> </a></li>
+
+                    <li class="pushy-link">
+                      <a href="#"> 
+                        <div class="icon-menu_1"> <svg fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
+                          <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492M5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0"/>
+                          <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115z"/>
+                        </svg> </div>
+                      <div class="icon-menu_2"> Human Capital </div> </a></li>
+       
+                    <li class="pushy-link">
+                      <a href="#"> 
+                        <div class="icon-menu_1"> <svg fill="currentColor" class="bi bi-headset" viewBox="0 0 16 16">
+                          <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5"/>
+                        </svg> </div>
+                      <div class="icon-menu_2"> CRM </div> </a></li>
+   
+                    <li class="pushy-link">
+                      <a href="#"> 
+                        <div class="icon-menu_1"> <svg fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                          <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+                        </svg> </div>
+                      <div class="icon-menu_2"> Assets </div> </a></li>
+                    <li class="pushy-link">
+                      <a href="#"> 
+                        <div class="icon-menu_1"> <svg fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                          <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+                        </svg> </div>
+                      <div class="icon-menu_2"> My Profile </div> </a></li>
+
+                      <li class="pushy-link">
+                        <a href="#"> 
+                          <div class="icon-menu_1"> <svg fill="currentColor" class="bi bi-unlock" viewBox="0 0 16 16">
+                            <path d="M11 1a2 2 0 0 0-2 2v4a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h5V3a3 3 0 0 1 6 0v4a.5.5 0 0 1-1 0V3a2 2 0 0 0-2-2M3 8a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1z"/>
+                          </svg> </div>
+                        <div class="icon-menu_2"> Change Password </div> </a></li>
+
+                        <li class="pushy-link">
+                          <a href="#"> 
+                            <div class="icon-menu_1"> <svg fill="currentColor" class="bi bi-journal-check" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M10.854 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 8.793l2.646-2.647a.5.5 0 0 1 .708 0"/>
+                              <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2"/>
+                              <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z"/>
+                            </svg> </div>
+                          <div class="icon-menu_2"> Approvals </div> </a></li>
+
+                          <li class="pushy-link">
+                            <a href="#"> 
+                              <div class="icon-menu_1"> <svg fill="currentColor" class="bi bi-journal-text" viewBox="0 0 16 16">
+                                <path d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5m0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5"/>
+                                <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2"/>
+                                <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z"/>
+                              </svg> </div>
+                            <div class="icon-menu_2"> Summary </div> </a></li>
+   
+                </ul>
+            </div>
+        </nav>
+        </div>
+
+	</nav>
+
+        <!-- Page Content  -->
+<div id="content">
+<div class="top-hdr">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+    <a href="#" id="sidebarCollapse">
+      <svg width="46" height="46" fill="currentColor" class="bi bi-filter-left" viewBox="0 0 16 16"><path d="M2 10.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/></svg>
+    </a>  
+    <div class="compny-logo"> 
+      <ul>
+        <li> <a href="dashboard.html"><img src="images/ini-logo.png" class="img-fluid" alt="company logo"/></a> </li>
+        <li> <h5> INI Technologies pvt ltd </h5> </li>
+      </ul>
+    </div>
+    
+    
+
+
+    <div class="heder-top-right-icon">
+      <ul>
+        <li> <a href="#"> <svg width="13" height="13" fill="currentColor" class="bi bi-newspaper" viewBox="0 0 16 16"><path d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5z"/>
+          <path d="M2 3h10v2H2zm0 3h4v3H2zm0 4h4v1H2zm0 2h4v1H2zm5-6h2v1H7zm3 0h2v1h-2zM7 8h2v1H7zm3 0h2v1h-2zm-3 2h2v1H7zm3 0h2v1h-2zm-3 2h2v1H7zm3 0h2v1h-2z"/>
+        </svg> </a> </li>
+
+        <li> <a href="#"> <svg width="13" height="13" fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
+          <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1z"/>
+        </svg> </a> </li>
+        
+        <li> <a href="#"> <svg width="13" height="13" fill="currentColor" class="bi bi-calendar2-week" viewBox="0 0 16 16">
+          <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M2 2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1z"/>
+          <path d="M2.5 4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5zM11 7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"/>
+        </svg> </a> </li>
+
+        <li> <a href="#"> <svg width="13" height="13" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16"><path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
+        </svg> </a> </li>
+
+        <li> <a href="#"> <svg width="13" height="13" fill="currentColor" class="bi bi-archive-fill" viewBox="0 0 16 16"> <path d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1M.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8z"/>
+        </svg> </a> </li>
+
+        <li class="log-ouut-top"> <a href="index.html"> <svg fill="currentColor" width="15" height="15" class="bi bi-power" viewBox="0 0 16 16"><path d="M7.5 1v7h1V1z"></path><path d="M3 8.812a5 5 0 0 1 2.578-4.375l-.485-.874A6 6 0 1 0 11 3.616l-.501.865A5 5 0 1 1 3 8.812"></path>
+        </svg> Logout </a> </li>
+
+      </ul>
+    </div>
+    </div>
+          
+  </nav>
+
+
+  
+  <div class="clearfix"></div> 
+<div id="menu-top-bars">
+  <header id="header" class="header-size-sm">
+    <div id="header-wrap">
+            <div class="header-row">
+              <div id="primary-menu-trigger">
+                <svg class="svg-trigger" viewBox="0 0 100 100">
+                  <path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path>
+                  <path d="m 30,50 h 40"></path>
+                  <path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path>
+                </svg>
+              </div>
+              <nav class="primary-menu">
+                <ul class="menu-container">
+                <li class="menu-item"> 
+                  <a class="menu-link" href="dashboard.html">
+                    <div> Home </div>
+                  </a>
+                  </li>
+                  <li class="menu-item">  
+                  <a class="menu-link" href="sort_table.html">
+                    <div> Table Sorting </div>
+                  </a>
+                    <ul class="sub-menu-container">
+                      <li class="menu-item"> <a class="menu-link" href="#">
+                        <div>Niche Demos</div>
+                        </a> </li>
+                      <li class="menu-item"> <a class="menu-link" href="#">
+                        <div>One-Page Demos</div>
+                        </a> </li>
+                      <li class="menu-item"> <a class="menu-link" href="#">
+                        <div>Home - Corporate</div>
+                        </a>
+                        <ul class="sub-menu-container">
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Corporate - Layout 1</div>
+                            </a> </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Corporate - Layout 2</div>
+                            </a> </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Corporate - Layout 3</div>
+                            </a> </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Corporate - Layout 4</div>
+                            </a> </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item"> <a class="menu-link" href="#">
+                        <div>Home - Portfolio</div>
+                        </a>
+                        <ul class="sub-menu-container">
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Portfolio - Layout 1</div>
+                            </a> </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Portfolio - Layout 2</div>
+                            </a> </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Portfolio - Masonry</div>
+                            </a> </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Portfolio - AJAX</div>
+                            </a> </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item"> <a class="menu-link" href="#">
+                        <div>Home - Blog</div>
+                        </a>
+                        <ul class="sub-menu-container">
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Blog - Layout 1</div>
+                            </a> </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Blog - Layout 2</div>
+                            </a> </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Blog - Layout 3</div>
+                            </a> </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item"> <a class="menu-link" href="#">
+                        <div>Home - Shop</div>
+                        </a>
+                        <ul class="sub-menu-container">
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Shop - Layout 1</div>
+                            </a> </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Shop - Layout 2</div>
+                            </a> </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item"> <a class="menu-link" href="#">
+                        <div>Home - Magazine</div>
+                        </a>
+                        <ul class="sub-menu-container">
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Magazine - Layout 1</div>
+                            </a> </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Magazine - Layout 2</div>
+                            </a> </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Magazine - Layout 3</div>
+                            </a> </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item"> <a class="menu-link" href="#">
+                        <div>Home - Landing Page</div>
+                        </a>
+                        <ul class="sub-menu-container">
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Landing Page - Layout 1</div>
+                            </a> </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Landing Page - Layout 2</div>
+                            </a> </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Landing Page - Layout 3</div>
+                            </a> </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Landing Page - Layout 4</div>
+                            </a> </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Landing Page - Layout 5</div>
+                            </a> </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item"> <a class="menu-link" href="#">
+                        <div>Home - Full Screen</div>
+                        </a>
+                        <ul class="sub-menu-container">
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Full Screen - Image</div>
+                            </a> </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Full Screen - Slider</div>
+                            </a> </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Full Screen - Video</div>
+                            </a> </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item"> <a class="menu-link" href="#">
+                        <div>Home - One Page</div>
+                        </a>
+                        <ul class="sub-menu-container">
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>One Page - Default</div>
+
+                            </a> </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>One Page - Submenu</div>
+                            </a> </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>One Page - Dots Style</div>
+                            </a> </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item mega-menu mega-menu-small"> <a class="menu-link" href="#">
+                        <div>Extras</div>
+                        </a>
+                        <div class="mega-menu-content">
+                          <div class="row mx-0">
+                            <ul class="sub-menu-container mega-menu-column col">
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Wedding</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Restaurant</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Events</div>
+                                </a> </li>
+                            </ul>
+                            <ul class="sub-menu-container mega-menu-column col">
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Parallax</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>App Showcase</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Boxed Layout</div>
+                                </a> </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </li>
+                 
+             
+                  <li class="menu-item"> <a class="menu-link" href="form-1.html">
+                    <div> Form </div>
+                    </a>
+                    <ul class="sub-menu-container">
+                      <li class="menu-item"> <a class="menu-link" href="#">
+                        <div><i class="icon-stack"></i>Sliders</div>
+                        </a>
+                        <ul class="sub-menu-container">
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Revolution Slider</div>
+                            </a>
+                            <ul class="sub-menu-container">
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Premium Templates</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Full Screen</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Full Width</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Kenburns Effect</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>HTML5 Video</div>
+                                </a> </li>
+                            </ul>
+                          </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Canvas Slider</div>
+                            </a>
+                            <ul class="sub-menu-container">
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Full Width</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Fade Transition</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Autoplay Feature</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Custom Video Event</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Pagination Navigation</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>3 Columns</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>4 Columns</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>5 Columns</div>
+                                </a> </li>
+                            </ul>
+                          </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Flex Slider</div>
+                            </a>
+                            <ul class="sub-menu-container">
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Default Layout</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>with Thumbs</div>
+                                </a> </li>
+                            </ul>
+                          </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Owl Slider</div>
+                            </a>
+                            <ul class="sub-menu-container">
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Full Width</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Boxed Width</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Video Slider</div>
+                                </a> </li>
+                            </ul>
+                          </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Static Media</div>
+                            </a>
+                            <ul class="sub-menu-container">
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Static - Parallax</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Static - Image</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Static - Thumb Gallery</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Static - HTML5 Video</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Static - Embedded Video</div>
+                                </a> </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item"> <a class="menu-link" href="#">
+                        <div><i class="icon-umbrella"></i>Headers</div>
+                        </a>
+                        <ul class="sub-menu-container">
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Light Version</div>
+                            </a> </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Dark Version</div>
+                            </a> </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Transparent</div>
+                            </a> </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Semi Transparent</div>
+                            </a>
+                            <ul class="sub-menu-container">
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Light Version</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Dark Version</div>
+                                </a> </li>
+                            </ul>
+                          </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Left Side Header</div>
+                            </a>
+                            <ul class="sub-menu-container">
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Fixed Position</div>
+      
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>OnClick Open</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Push Content</div>
+                                </a> </li>
+                            </ul>
+                          </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Right Side Header</div>
+                            </a>
+                            <ul class="sub-menu-container">
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Fixed Position</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>OnClick Open</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Push Content</div>
+                                </a> </li>
+                            </ul>
+                          </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Floating Version</div>
+                            </a> </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Static Sticky</div>
+                            </a> </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Responsive Sticky</div>
+                            </a> </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Alternate Logos</div>
+                            </a> </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Alternate Mobile Menu</div>
+                            </a> </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item mega-menu mega-menu-small"> <a class="menu-link" href="#">
+                        <div><i class="icon-align-justify2"></i>Menu Styles</div>
+                        </a>
+                        <div class="mega-menu-content">
+                          <div class="row mx-0">
+                            <ul class="sub-menu-container mega-menu-column col">
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Default Layout</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Alternate Layout</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Pill Style</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Border Style</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Large Icon Menu</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Split Layout</div>
+                                </a> </li>
+                            </ul>
+                            <ul class="sub-menu-container mega-menu-column col">
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Scaling Border</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Sub-Title Menu</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Extended Menu 1</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Extended Menu 2</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Extended Menu 3</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Overlay Menu</div>
+                                </a> </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="menu-item"> <a class="menu-link" href="#">
+                        <div><i class="icon-line-columns"></i>Mega Menu</div>
+                        </a>
+                        <ul class="sub-menu-container">
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Widgetized</div>
+                            </a> </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Full-Width</div>
+                            </a> </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Tabbed</div>
+                            </a> </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Side-Tabs (onClick)</div>
+                            </a> </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item"> <a class="menu-link" href="#">
+                        <div><i class="icon-wpforms"></i>Forms</div>
+                        </a> </li>
+                      <li class="menu-item mega-menu mega-menu-small"> <a class="menu-link" href="#">
+                        <div><i class="icon-gift"></i>Widgets</div>
+                        </a>
+                        <div class="mega-menu-content">
+                          <div class="row mx-0">
+                            <ul class="sub-menu-container mega-menu-column col">
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Links</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Flickr Photostream</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Dribbble Shots</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Subscribers</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Posts List</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Twitter Feed</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Tabbed Widgets</div>
+                                </a> </li>
+                            </ul>
+                            <ul class="sub-menu-container mega-menu-column col">
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Carousel</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Social Icons</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Testimonials</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Quick Contact</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Tags Cloud</div>
+                                </a> </li>
+      
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Video Embeds</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Raw HTML</div>
+                                </a> </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="menu-item mega-menu mega-menu-small"> <a class="menu-link" href="#">
+                        <div><i class="icon-ok-sign"></i>Page Titles</div>
+                        </a>
+                        <div class="mega-menu-content">
+                          <div class="row mx-0">
+                            <ul class="sub-menu-container mega-menu-column col-5">
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Left Align</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Right Align</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Center Align</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Dark Style</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>BG Pattern</div>
+                                </a> </li>
+                            </ul>
+                            <ul class="sub-menu-container mega-menu-column col-7">
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Parallax - Default</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Parallax - Transparent</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>HTML5 Video</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>No Background</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Mini Version</div>
+                                </a> </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="menu-item"> <a class="menu-link" href="#">
+                        <div><i class="icon-line-layout"></i>Side Panel</div>
+                        </a>
+                        <ul class="sub-menu-container">
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Left Overlay</div>
+                            </a> </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Left Push</div>
+                            </a> </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Right Overlay</div>
+                            </a> </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Right Push</div>
+                            </a> </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Light Background</div>
+                            </a> </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item"> <a class="menu-link" href="#">
+                        <div><i class="icon-line-expand"></i>Modal OnLoad</div>
+                        </a>
+                        <ul class="sub-menu-container">
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Default Layout</div>
+      
+                            </a> </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Video iFrame</div>
+                            </a> </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Subscription Form</div>
+                            </a> </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Common Height</div>
+                            </a> </li>
+                          <li class="menu-item"> <a class="menu-link" href="#">
+                            <div>Cookies Enabled</div>
+                            </a> </li>
+                        </ul>
+                      </li>
+                      <li class="menu-item mega-menu mega-menu-small"> <a class="menu-link" href="#" data-scrollto="#footer">
+                        <div><i class="icon-th"></i>Footers</div>
+                        </a>
+                        <div class="mega-menu-content">
+                          <div class="row mx-0">
+                            <ul class="sub-menu-container mega-menu-column col">
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Sticky</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#" data-scrollto="#footer">
+                                <div>Layout 1</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Layout 2</div>
+                                </a> </li>
+                            </ul>
+                            <ul class="sub-menu-container mega-menu-column col">
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Layout 3</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Layout 4</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Layout 5</div>
+                                </a> </li>
+                            </ul>
+                            <ul class="sub-menu-container mega-menu-column col">
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Layout 6</div>
+                                </a> </li>
+                              <li class="menu-item"> <a class="menu-link" href="#">
+                                <div>Layout 7</div>
+                                </a> </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </li>
+                  
+                  <li class="menu-item"> <a class="menu-link" href="form-2.html"> <div> Table </div> </a> </li>
+                  
+                  
+           
+                  
+                  <li class="menu-item"> <a class="menu-link" href="#"> <div>  ﻿Contact Us </div> </a> </li>
+                 
+                  
+                  
+                  
+                  
+                </ul>
+              </nav>
+            </div>
+      
+    </div>
+  </header>
+<a href="#"> 
+  <div class="dv-logout-bntt">
+    
+  </div> 
+</a>
+</div>
+</div>
+<div class="clearfix"></div>  
+   
+<div class="inner-contents">
+  <div class="brd-crmp-wrpr">
+    <div class="row">
+      <div class="col-lg-6"> <div class="brd-crmpp">
+        <ul>
+          <li class="fst-cntn-css"> <a href="dashboard.html"> Home </a> </li>
+          <li> <a href="#"> Form 1 </a> </li>
+          <li> <a href="#"> Form 2 </a> </li>
+          <li> Form 2 </li>
+        </ul>
+      </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="rgt-need-help"> <a href="#"> Need Help? </a> </div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="form-wrapper">
+    <div class="hdd-commn-inner_1">
+      <div class="row">
+        <div class="col-sm-7"> <h4> Form Heading </h4> </div>
+        <div class="col-sm-5">  
+          <ul class="bck-bttns_uli">
+            <li> <a href="#" class="btn btn-primary bck-inner-bttn"> Back </a> </li>
+            <li> <a href="#" class="btn btn-primary bck-inner-bttn"> Add </a> </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="table-responsive">
+    <table class="table table-striped">
+      <thead>
+      <tr>
+      <th>sl.no</th>
+      <th>Table heading</th>
+      <th>Table heading</th>
+      <th>Table heading</th>
+      <th>Table heading</th>
+      <th>Table heading</th>
+      <th>Actions</th>
+      <th><input name="" type="checkbox" value="" /></th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+      <td>1</td>
+      <td>Table cell</td>
+      <td>Table cell</td>
+      <td>Table cell</td>
+      <td>Table cell</td>
+      <td>Table cell</td>
+      <td>
+        <ul class="list-icons3">
+          <li> <a href="#"> <img src="images/icons-list-1.png" class="img-fluid" alt="View"/> </a> </li>
+          <li> <a href="#"> <img src="images/icons-list-2.png" class="img-fluid" alt="View"/> </a> </li>
+          <li> <a href="#"> <img src="images/icons-list-3.png" class="img-fluid" alt="View"/> </a> </li>
+        </ul>
+      </td>
+      <td><input name="" type="checkbox" value="" /></td>
+      </tr>
+      <tr>
+      <td>2</td>
+      <td>Table cell</td>
+      <td>Table cell</td>
+      <td>Table cell</td>
+      <td>Table cell</td>
+      <td>Table cell</td>
+      <td>
+        <ul class="list-icons3">
+          <li> <a href="#"> <img src="images/icons-list-1.png" class="img-fluid" alt="View"/> </a> </li>
+          <li> <a href="#"> <img src="images/icons-list-2.png" class="img-fluid" alt="View"/> </a> </li>
+          <li> <a href="#"> <img src="images/icons-list-3.png" class="img-fluid" alt="View"/> </a> </li>
+        </ul>
+      </td>
+      <td><input name="" type="checkbox" value="" /></td>
+      </tr>
+      <tr>
+      <td>3</td>
+      <td>Table cell</td>
+      <td>Table cell</td>
+      <td>Table cell</td>
+      <td>Table cell</td>
+      <td>Table cell</td>
+      <td>
+        <ul class="list-icons3">
+          <li> <a href="#"> <img src="images/icons-list-1.png" class="img-fluid" alt="View"/> </a> </li>
+          <li> <a href="#"> <img src="images/icons-list-2.png" class="img-fluid" alt="View"/> </a> </li>
+          <li> <a href="#"> <img src="images/icons-list-3.png" class="img-fluid" alt="View"/> </a> </li>
+        </ul>
+      </td>
+      <td><input name="" type="checkbox" value="" /></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>Table cell</td>
+        <td>
+          <ul class="list-icons3">
+            <li> <a href="#"> <img src="images/icons-list-1.png" class="img-fluid" alt="View"/> </a> </li>
+            <li> <a href="#"> <img src="images/icons-list-2.png" class="img-fluid" alt="View"/> </a> </li>
+            <li> <a href="#"> <img src="images/icons-list-3.png" class="img-fluid" alt="View"/> </a> </li>
+          </ul>
+        </td>
+        <td><input name="" type="checkbox" value="" /></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+          <td>
+            <ul class="list-icons3">
+              <li> <a href="#"> <img src="images/icons-list-1.png" class="img-fluid" alt="View"/> </a> </li>
+              <li> <a href="#"> <img src="images/icons-list-2.png" class="img-fluid" alt="View"/> </a> </li>
+              <li> <a href="#"> <img src="images/icons-list-3.png" class="img-fluid" alt="View"/> </a> </li>
+            </ul>
+          </td>
+          <td><input name="" type="checkbox" value="" /></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Table cell</td>
+            <td>Table cell</td>
+            <td>Table cell</td>
+            <td>Table cell</td>
+            <td>Table cell</td>
+            <td>
+              <ul class="list-icons3">
+                <li> <a href="#"> <img src="images/icons-list-1.png" class="img-fluid" alt="View"/> </a> </li>
+                <li> <a href="#"> <img src="images/icons-list-2.png" class="img-fluid" alt="View"/> </a> </li>
+                <li> <a href="#"> <img src="images/icons-list-3.png" class="img-fluid" alt="View"/> </a> </li>
+              </ul>
+            </td>
+            <td><input name="" type="checkbox" value="" /></td>
+            </tr>                        
+      </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div id="main-footer">
+  <div class="row">
+    <div class="col-lg-6 col-sm-12 col-md-6"> <p> All Rights Reserved © 2024 </p> </div>
+    <div class="col-lg-6 col-sm-12 col-md-6"> <p class="rgt-acopy-rgt"> Designed and developed by INI Technologies Pvt Ltd </p> </div>
+  </div>
+</div>   
+</div>
+
+</div>
+</div>
+
+        	
+
+       
+       
+
+
+<script src="js/jquery.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+
+
+<!--common scripts--> 
+<script src="js/common.js"></script> 
+<!--common scripts--> 
+<!--side menu nav-->
+<script src="js/pushy.js"></script>
+<!--side menu nav -->
+<!--div slider--> 
+<script src="js/owl.carousel.js"></script> 
+<!--div slider--> 
+
+<!--menu bar-->
+<script src="js/functions.js"></script> 
+<script type="text/javascript">
+/// some script
+
+// jquery ready start
+$(document).ready(function() {
+	// jQuery code
+
+	//////////////////////// Prevent closing from click inside dropdown
+    $(document).on('click', '.dropdown-menu', function (e) {
+      e.stopPropagation();
+    });
+
+    // make it as accordion for smaller screens
+    if ($(window).width() < 992) {
+	  	$('.dropdown-menu a').click(function(e){
+	  		e.preventDefault();
+	        if($(this).next('.submenu').length){
+	        	$(this).next('.submenu').toggle();
+	        }
+	        $('.dropdown').on('hide.bs.dropdown', function () {
+			   $(this).find('.submenu').hide();
+			})
+	  	});
+	}
+	
+}); // jquery end
+</script>
+<!--menu bar-->
+
+<script src="js/select-boxes.js"></script>
+<script src="js/selectsplitter.js"></script>
+<script>
+		jQuery(document).ready( function($){
+
+			// Multiple Select
+			$(".select-1").select2({
+				placeholder: "Select Multiple Values"
+			});
+
+			// Loading array data
+			var data = [{ id: 0, text: 'enhancement' }, { id: 1, text: 'bug' }, { id: 2, text: 'duplicate' }, { id: 3, text: 'invalid' }, { id: 4, text: 'wontfix' }];
+			$(".select-data-array").select2({
+			  data: data
+			})
+			$(".select-data-array-selected").select2({
+			  data: data
+			});
+
+			// Enabled/Disabled
+			$(".select-disabled").select2();
+			$(".select-enable").on("click", function () {
+				$(".select-disabled").prop("disabled", false);
+				$(".select-disabled-multi").prop("disabled", false);
+			});
+			$(".select-disable").on("click", function () {
+				$(".select-disabled").prop("disabled", true);
+				$(".select-disabled-multi").prop("disabled", true);
+			});
+
+			// Without Search
+			$(".select-hide").select2({
+				minimumResultsForSearch: Infinity
+			});
+
+			// select Tags
+			$(".select-tags").select2({
+				tags: true
+			});
+
+			// Select Splitter
+			$('.selectsplitter').selectsplitter();
+
+		});
+	</script>
+
+<!--sticky menu bar-->
+<script data-nv-seq="34">
+    jQuery(document).ready(function(){
+      var cmsHomeHeader = jQuery("#header_container").height();
+      //var menu_item_height = jQuery("#header_container").height();
+      jQuery(".cms-home .top-blank").css("margin-top",cmsHomeHeader);
+      jQuery(".catalog-product-view .top-blank").css("margin-top",cmsHomeHeader);
+      jQuery(".top-blank.myAccount_tb").css("margin-top",cmsHomeHeader);
+      jQuery(".cms-page-view .top-blank").css("margin-top",cmsHomeHeader);
+      //jQuery(".tagalys-search-index-index .top-blank").css("margin-top",cmsHomeHeader);
+      jQuery(".customer-account-referralservice .top-blank").css("margin-top",cmsHomeHeader);
+      jQuery(".ordertracking-index-index .top-blank").css("margin-top",cmsHomeHeader);
+      jQuery(".dynamicsitemap-index-index .top-blank").css("margin-top",cmsHomeHeader);
+      jQuery(".customer-account-create .top-blank").css("margin-top",cmsHomeHeader);
+      jQuery(".customer-account-login .top-blank").css("margin-top",cmsHomeHeader);
+      jQuery(".reviews-index-index .top-blank").css("margin-top",cmsHomeHeader);
+      jQuery(".checkout-onepage-failure .top-blank").css("margin-top",cmsHomeHeader);
+      jQuery(".checkout-onepage-success .top-blank").css("margin-top",cmsHomeHeader);
+      jQuery(".cms-index-noroute .top-blank").css("margin-top",cmsHomeHeader);
+      jQuery(".ordertracking-index-view .top-blank").css("margin-top",cmsHomeHeader);
+      //jQuery(".tagalys-mpage-index-index .top-blank").css("margin-top",cmsHomeHeader);
+        jQuery(".mega_menu_").on("mouseenter", "ul li a.parent_", function(){
+            jQuery(".subMenu").removeClass("active"); 
+            jQuery(".parent_").removeClass("active");
+            jQuery(this).parent().children(".subMenu").addClass("active");            
+            jQuery(this).parent().children(".parent_").addClass("active");            
+        });        
+        jQuery(".mega_menu_").mouseleave(function() {
+            jQuery(".subMenu").removeClass("active");
+             jQuery(".parent_").removeClass("active");
+        });
+        
+        //data passing in GTM
+        jQuery(".mega_menu_ a").click(function(){
+            let dataMenu = jQuery(this).data("menu");
+            console.log(dataMenu);
+            dataLayer.push({
+                'event': "dataMenu",
+                'menuname': dataMenu                      
+              });
+        }); 
+
+        //for collection menu
+        let currentHeight = jQuery(".right_arrow .col_item.active").outerHeight();
+        let currentWidth = jQuery(".right_arrow .col_item.active").width();
+        let leftPos = jQuery(".right_arrow .col_item.active").position();
+        let topPos = jQuery(".right_arrow .col_item.active").position();
+        jQuery(".traveller_").css({
+            "left":leftPos.left + (currentWidth - 2),
+            "height":currentHeight,
+            "top":(topPos.top)  
+        });
+
+        jQuery(".subMenu").on("mouseenter", ".all_collection_item .item .col_item", function(){
+          let data_value =jQuery(this).attr("data-colection");
+          jQuery(".all_collection_item .item .col_item").removeClass("active");
+          jQuery(".collection_children").removeClass("active");
+          jQuery(this).addClass("active");
+          jQuery("#"+data_value).addClass("active");
+          
+          let leftPosition = jQuery(this).position();
+              let height = jQuery(this).outerHeight();
+              let width = jQuery(this).width();
+              let topPos = jQuery(this).position();
+              jQuery(".traveller_").css({
+                "left":leftPosition.left + (width - 2),
+                  "height":height,
+                  "top":(topPos.top)
+              })
+
+        }); 
+    });
+</script> 
+<script data-nv-seq="39">			
+	// Hide Header on on scroll down
+	var didScroll;
+	var lastScrollTop = 0;
+	var delta = 5;
+	var navbarHeight = jQuery('#header_container').outerHeight();
+	
+	jQuery(window).scroll(function(event){
+		didScroll = true;
+	});
+	
+	setInterval(function() {
+		if (didScroll) {
+			hasScrolled();
+			didScroll = false;
+		}
+	}, 250);
+	
+	function hasScrolled() {
+		var st = jQuery(this).scrollTop();
+	
+		// Make sure they scroll more than delta
+		if(Math.abs(lastScrollTop - st) <= delta)
+			return;
+		if (st > lastScrollTop && st > navbarHeight){
+			// Scroll Down
+			jQuery('#header_container').css("top", "-200px");
+		} else {
+			// Scroll Up
+			if(st + jQuery(window).height() < jQuery(document).height()) {
+				jQuery('#header_container').css("top", "0px");
+			}
+		}
+		lastScrollTop = st;
+	}
+</script>
+<!--sticky menu bar-->
+<!--toggle menu-->
+<script type="text/javascript">
+  $(document).ready(function () {
+      $('#sidebarCollapse').on('click', function () {
+          $('#sidebar').toggleClass('active');
+      });
+  });
+</script>
+<!--toggle menu-->
+
+<!--main tab-->
+<script src='js/plotly-2.29.1.js'></script>
+
+<script>
+var trace1 = {
+  x: [1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012],
+  y: [219, 146, 112, 127, 124, 180, 236, 207, 236, 263, 350, 430, 474, 526, 488, 537, 500, 439],
+  name: 'Rest of world',
+  marker: {color: 'rgb(55, 83, 109)'},
+  type: 'bar'
+};
+
+var trace2 = {
+  x: [1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012],
+  y: [16, 13, 10, 11, 28, 37, 43, 55, 56, 88, 105, 156, 270, 299, 340, 403, 549, 499],
+  name: 'China',
+  marker: {color: 'rgb(26, 118, 255)'},
+  type: 'bar'
+};
+
+var data = [trace1, trace2];
+
+var layout = {
+  title: 'US Export of Plastic Scrap',
+  xaxis: {tickfont: {
+      size: 14,
+      color: 'rgb(107, 107, 107)'
+    }},
+  yaxis: {
+    title: 'USD (millions)',
+    titlefont: {
+      size: 16,
+      color: 'rgb(107, 107, 107)'
+    },
+    tickfont: {
+      size: 14,
+      color: 'rgb(107, 107, 107)'
+    }
+  },
+  legend: {
+    x: 0,
+    y: 1.0,
+    bgcolor: 'rgba(255, 255, 255, 0)',
+    bordercolor: 'rgba(255, 255, 255, 0)'
+  },
+  barmode: 'group',
+  bargap: 0.15,
+  bargroupgap: 0.1
+};
+
+Plotly.newPlot('myDiv_3', data, layout);
+
+</script>
+<script>
+var trace1 = {
+  x: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+  y: [20, 14, 25, 16, 18, 22, 19, 15, 12, 16, 14, 17],
+  type: 'bar',
+  name: 'Primary Product',
+  marker: {
+    color: 'rgb(49,130,189)',
+    opacity: 0.7,
+  }
+};
+
+var trace2 = {
+  x: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+  y: [19, 14, 22, 14, 16, 19, 15, 14, 10, 12, 12, 16],
+  type: 'bar',
+  name: 'Secondary Product',
+  marker: {
+    color: 'rgb(204,204,204)',
+    opacity: 0.5
+  }
+};
+
+var data = [trace1, trace2];
+
+var layout = {
+  title: '2013 Sales Report',
+  xaxis: {
+    tickangle: -45
+  },
+  barmode: 'group'
+};
+
+Plotly.newPlot('myDiv_2', data, layout);
+
+</script>
+
+<script>
+var trace1 = {
+  x: ['giraffes', 'orangutans', 'monkeys'],
+  y: [20, 14, 23],
+  name: 'SF Zoo',
+  type: 'bar'
+};
+
+var trace2 = {
+  x: ['giraffes', 'orangutans', 'monkeys'],
+  y: [12, 18, 29],
+  name: 'LA Zoo',
+  type: 'bar'
+};
+
+var data = [trace1, trace2];
+
+var layout = {barmode: 'group'};
+
+Plotly.newPlot('myDiv', data, layout);
+
+</script>
+
+<script>
+$(function() {
+  var $tabButtonItem = $('#tab-button li'),
+      $tabSelect = $('#tab-select'),
+      $tabContents = $('.tab-contents'),
+      activeClass = 'is-active';
+
+  $tabButtonItem.first().addClass(activeClass);
+  $tabContents.not(':first').hide();
+
+  $tabButtonItem.find('a').on('click', function(e) {
+    var target = $(this).attr('href');
+
+    $tabButtonItem.removeClass(activeClass);
+    $(this).parent().addClass(activeClass);
+    $tabSelect.val(target);
+    $tabContents.hide();
+    $(target).show();
+    e.preventDefault();
+  });
+
+  $tabSelect.on('change', function() {
+    var target = $(this).val(),
+        targetSelectNum = $(this).prop('selectedIndex');
+
+    $tabButtonItem.removeClass(activeClass);
+    $tabButtonItem.eq(targetSelectNum).addClass(activeClass);
+    $tabContents.hide();
+    $(target).show();
+  });
+});
+</script>
+
+<!--main tab-->
+
+<script src="js/chart.js"></script>
+<script src="js/chart-utils.js"></script>
+<!-- Line Chart -->
+<script>
+		var customTooltips = function (tooltip) {
+			$(this._chart.canvas).css("cursor", "pointer");
+
+			var positionY = this._chart.canvas.offsetTop;
+			var positionX = this._chart.canvas.offsetLeft;
+
+			$(".chartjs-tooltip").css({
+				opacity: 0,
+			});
+
+			if (!tooltip || !tooltip.opacity) {
+				return;
+			}
+
+			if (tooltip.dataPoints.length > 0) {
+				tooltip.dataPoints.forEach(function (dataPoint) {
+					var content = [dataPoint.xLabel, dataPoint.yLabel].join(": ");
+					var $tooltip = $("#tooltip-" + dataPoint.datasetIndex);
+
+					$tooltip.html(content);
+					$tooltip.css({
+						opacity: 1,
+						top: positionY + dataPoint.y + "px",
+						left: positionX + dataPoint.x + "px",
+					});
+				});
+			}
+		};
+		var color = Chart.helpers.color;
+		var lineChartData = {
+			labels: ["January", "February", "March", "April", "May", "June", "July"],
+			datasets: [{
+				label: "My First dataset",
+				backgroundColor: color(window.chartColors.red).alpha(0.2).rgbString(),
+				borderColor: window.chartColors.red,
+				pointBackgroundColor: window.chartColors.red,
+				data: [
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor()
+				]
+			}, {
+				label: "My Second dataset",
+				backgroundColor: color(window.chartColors.blue).alpha(0.2).rgbString(),
+				borderColor: window.chartColors.blue,
+				pointBackgroundColor: window.chartColors.blue,
+				data: [
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor(),
+					randomScalingFactor()
+				]
+			}]
+		};
+
+		window.onload = function() {
+			var chartEl = document.getElementById("chart-0");
+			var chart = new Chart(chartEl, {
+				type: "line",
+				data: lineChartData,
+				options: {
+					title:{
+						display: true,
+						text: "Custom Tooltips using Data Points"
+					},
+					tooltips: {
+						enabled: false,
+						mode: 'index',
+						intersect: false,
+						custom: customTooltips
+					}
+				}
+			});
+		};
+
+	</script>
+<!-- Line Chart -->
+
+
+<script>
+  const xValues = ["Italy", "France", "Spain", "USA", "Argentina"];
+  const yValues = [55, 49, 44, 24, 15];
+  const barColors = [
+    "#b91d47",
+    "#00aba9",
+    "#2b5797",
+    "#e8c3b9",
+    "#1e7145"
+  ];
+  
+  new Chart("myChart", {
+    type: "pie",
+    data: {
+      labels: xValues,
+      datasets: [{
+        backgroundColor: barColors,
+        data: yValues
+      }]
+    },
+    options: {
+      title: {
+        display: true,
+        text: "World Wide Wine Production 2018"
+      }
+    }
+  });
+  </script>
+
+
+
+  
+<!-- === SORT TABLE STYLE === -->
+<script src="js/bs-datatable.js"></script>
+<script>
+		$(document).ready(function() {
+			$('#datatable1').dataTable();
+		});
+</script>
+<!-- === SORT TABLE STYLE === -->
+
+
+
+<script src="js/datepicker.js"></script>
+<script>
+  $(function() {
+    $('.component-datepicker.default').datepicker({
+      autoclose: true,
+      startDate: "today",
+    });
+
+  });
+
+</script>
+
+
+
+
+</body></html>
